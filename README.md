@@ -10,14 +10,14 @@ Targeted use:  We recommend users use the python argparse module to control how 
 
 Capabilities currently collaborating with the CIA:
 
-  PCMDI Metrics Package
-  E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
-  ARM diagnostics package: https://github.com/ARM-DOE/arm-gcm-diagnostics
+  + PCMDI Metrics Package
+  + E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
+  + ARM diagnostics package: https://github.com/ARM-DOE/arm-gcm-diagnostics
   
   Coming soon(?)...
   
-  Regional Climate Model Evaluation System (RCMES): https://rcmes.jpl.nasa.gov/
-  The Toolkit for Extreme Climate Analysis (TECA): https://github.com/LBL-EESA/TECA
+  + Regional Climate Model Evaluation System (RCMES): https://rcmes.jpl.nasa.gov/
+  + The Toolkit for Extreme Climate Analysis (TECA): https://github.com/LBL-EESA/TECA
   
   Collaborating modeling groups:
   
