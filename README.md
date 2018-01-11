@@ -6,7 +6,7 @@ Purpose:  Many modeling centers are interested in using multiple externally deve
 
 Maintainance: The CIA is maintained by a small team motivated to help advance the interoperability of different GCM/ESM analysis capabilities. When changes are agreed upon, they will be added to the python script (src) which will be run to update the defaults stored in a json file.  Version control will enable users to control how they adopt to modifications.  Anyone interested in contributing to the support of the CIA or wanting to register to recieve routine status updates should contact BLAH BLAH BLAH.  The Climate-Forecast conventions (http://cfconventions.org/) are ane excellent example of what the CIA aspires to accomplish.    
 
-Targeted use:  We recommend users use the python argparse module to control how they drive their analysis systems.  The CIA is designed with the python argparse in mind, but it can readily be used with different utilites - the common syntax is the real reason for the CIA.
+Targeted use:  We recommend users use the python argparse module to control how they drive their analysis systems.  The CIA is designed with the python argparse in mind, and the Community Diagnostics Package exploits this (https://github.com/UV-CDAT/cdp).  However, the CIA readily be used with different utilites - the common syntax is ultimate goal.
 
 Capabilities currently collaborating with the CIA:
 
