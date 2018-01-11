@@ -10,7 +10,7 @@ Targeted use:  We recommend users use the python argparse module to control how 
 
 Capabilities currently collaborating with the CIA:
 
-  + PCMDI Metrics Package
+  + PCMDI Metrics Package: https://github.com/PCMDI/pcmdi_metrics
   + E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
   + ARM diagnostics package: https://github.com/ARM-DOE/arm-gcm-diagnostics
   
