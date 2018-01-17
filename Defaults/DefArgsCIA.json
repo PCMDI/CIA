@@ -1,4 +1,12 @@
 {
+    "--cid":{
+        "aliases":[
+            "--case_id"
+        ],
+        "default":"None",
+        "dest":"modnames",
+        "help":"The name of the subdirectory (below \"results_dir\" where results from a paritcular code execution is stored "
+    },
     "--mns":{
         "aliases":[
             "--modnames"
@@ -16,6 +24,12 @@
         "dest":"modpath",
         "help":"Explicit path to model data",
         "type":"str"
+    },
+    "--rd":{
+        "aliases":[
+            "--reference_data_path"
+        ],
+        "help":"The path/filename of reference (obs) data."
     },
     "-p":{
         "aliases":[
