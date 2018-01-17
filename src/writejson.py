@@ -10,6 +10,14 @@ ArgDefaults["-p"] = {'aliases':["--parameter"]}
 ArgDefaults["--mp"] = {'aliases':['--modpath'],'type':'str', 'dest':'modpath','default':'hi','help':'Explicit path to model data'}
 ArgDefaults["--mns"] = {'aliases':['--modnames'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
+ArgDefaults["--rd"] = {'aliases':['--results_dir'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'The name of the folder where all runs will be stored.'}
+ArgDefaults["--cid"] = {'aliases':['--case_id'],'dest':'modnames','default':'None','help':'The name of the subdirectory (below "results_dir" where results from a paritcular code execution is stored '}
+
+ArgDefaults['--rd'] = {'aliases':['--reference_data_path'],'help':'The path/filename of reference (obs) data.'}
+
+
+
+
 # Write arguments json
 
 if os.path.exists('../Defaults/DefArgsCIA.json'):
