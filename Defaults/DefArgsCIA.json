@@ -16,5 +16,10 @@
         "dest":"modpath",
         "help":"Explicit path to model data",
         "type":"str"
+    },
+    "-p":{
+        "aliases":[
+            "--parameter"
+        ]
     }
 }
