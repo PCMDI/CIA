@@ -9,6 +9,7 @@ source:
 build:
     script: python setup.py
     number: @BUILD_NUMBER@
+    noarch: generic
 
 requirements:
   build:
