@@ -1,0 +1,22 @@
+package:
+    name: cia
+    version: @VERSION@
+
+source:
+    git_url: git://github.com/gleckler1/cia
+    git_rev: @UVCDAT_BRANCH@
+
+build:
+    script: python setup.py
+    number: @BUILD_NUMBER@
+    noarch: generic
+
+requirements:
+  build:
+    - python
+
+
+about:
+    home:  http://gitub.com/gleckler1
+    summary: Common Input Arguments default file
+
