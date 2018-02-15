@@ -64,7 +64,7 @@
     },
     "--scheduler_addr\"":{
         "aliases":[
-            "N/A"
+            "--N/A"
         ],
         "help":"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.",
         "required":false,
