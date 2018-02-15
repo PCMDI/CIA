@@ -21,7 +21,7 @@ ArgDefaults['--diags'] = {'aliases':["-d"],'help':"Path to other user-defined pa
 
 ArgDefaults['--num_workers'] = {'aliases':["-n"],'help':"Number of workers, used when running with multiprocessing or in distributed mode.","type":"int","required":False}
 
-ArgDefaults['--scheduler_addr"'] = {'aliases':["N/A"],'help':"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.","type":"str","required":False}
+ArgDefaults['--scheduler_addr"'] = {'aliases':["--N/A"],'help':"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.","type":"str","required":False}
 
 
 # Write arguments json
