@@ -1,59 +1,79 @@
 {
-	"--cid": {
-		"aliases": [
-			"--case_id"
-		],
-		"default": "None",
-		"dest": "modnames",
-		"help": "The name of the subdirectory (below \"results_dir\" where results from a paritcular code execution is stored "
-	},
-	"--mns": {
-		"aliases": [
-			"--modnames"
-		],
-		"default": "None",
-		"dest": "modnames",
-		"help": "A list of names that can be used to loop through modpath",
-		"type": "ast.literal_eval"
-	},
-	"--mp": {
-		"aliases": [
-			"--modpath"
-		],
-		"default": "hi",
-		"dest": "modpath",
-		"help": "Explicit path to model data",
-		"type": "str"
-	},
-	"--rd": {
-		"aliases": [
-			"--reference_data_path"
-		],
-		"help": "The path/filename of reference (obs) data."
-	},
-	"--parameters": {
-		"aliases": ["-p"],
-		"type": "str",
-		"help": "Path to the user-defined parameter file.",
-		"required": false
-	},
-	"--diags": {
-		"aliases": ["-d"],
-		"type": "str",
-		"nargs": "+",
-		"dest": "other_parameters",
-		"default": [],
-		"help": "Path to other user-defined parameter file.",
-		"required": false
-	},
-	"--num_workers": {
-		"aliases": ["-n"],
-		"type": "int",
-		"help": "Number of workers, used when running with multiprocessing or in distributed mode.",
-		"required": false
-	},
-	"--scheduler_addr": {
-		"type": "str",
-		"help": "Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode."
-	}
+    "--case_id":{
+        "aliases":[
+            "--cid"
+        ],
+        "default":"None",
+        "dest":"modnames",
+        "help":"The name of the subdirectory (below results_dir where results from a paritcular code execution is stored "
+    },
+    "--diags":{
+        "aliases":[
+            "-d"
+        ],
+        "dest":"other_parameters",
+        "help":"Path to other user-defined parameter file.",
+        "nargs":"+",
+        "required":false,
+        "type":"str"
+    },
+    "--modnames":{
+        "aliases":[
+            "--mns"
+        ],
+        "default":"None",
+        "dest":"modnames",
+        "help":"A list of names that can be used to loop through modpath",
+        "type":"ast.literal_eval"
+    },
+    "--modpath":{
+        "aliases":[
+            "--mp"
+        ],
+        "default":"hi",
+        "dest":"modpath",
+        "help":"Explicit path to model data",
+        "type":"str"
+    },
+    "--num_workers":{
+        "aliases":[
+            "-n"
+        ],
+        "help":"Number of workers, used when running with multiprocessing or in distributed mode.",
+        "required":false,
+        "type":"int"
+    },
+    "--parameter":{
+        "aliases":[
+            "-p"
+        ]
+    },
+    "--reference_data_path":{
+        "aliases":[
+            "--rd"
+        ],
+        "help":"The path/filename of reference (obs) data."
+    },
+    "--results_dir":{
+        "aliases":[
+            "--rd"
+        ],
+        "default":"None",
+        "help":"The name of the folder where all runs will be stored.",
+        "type":"ast.literal_eval"
+    },
+    "--scheduler_addr\"":{
+        "aliases":[
+            "N/A"
+        ],
+        "help":"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.",
+        "required":false,
+        "type":"str"
+    },
+    "--test_data_path":{
+        "aliases":[
+            "--tp"
+        ],
+        "help":"The path/filename to model output."
+    }
 }
