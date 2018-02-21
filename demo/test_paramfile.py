@@ -1,2 +1,2 @@
-mods = 'testmodel'
+modnames = 'testmodel'
 modpath = 'some/mod/path'
