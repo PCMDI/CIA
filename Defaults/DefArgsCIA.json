@@ -50,7 +50,7 @@
     },
     "--reference_data_path":{
         "aliases":[
-            "--rd"
+            "--rdp"
         ],
         "help":"The path/filename of reference (obs) data."
     },
