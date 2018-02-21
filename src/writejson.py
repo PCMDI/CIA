@@ -13,7 +13,7 @@ ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'des
 ArgDefaults["--results_dir"] = {'aliases':['--rd'],'type':'ast.literal_eval', 'default':'None','help':'The name of the folder where all runs will be stored.'}
 ArgDefaults["--case_id"] = {'aliases':['--cid'],'dest':'modnames','default':'None','help':'The name of the subdirectory (below results_dir where results from a paritcular code execution is stored '}
 
-ArgDefaults['--reference_data_path'] = {'aliases':['--rd'],'help':'The path/filename of reference (obs) data.'}
+ArgDefaults['--reference_data_path'] = {'aliases':['--rdp'],'help':'The path/filename of reference (obs) data.'}
 
 ArgDefaults['--test_data_path'] = {'aliases':['--tp'],'help':'The path/filename to model output.'}
 
