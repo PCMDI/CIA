@@ -8,17 +8,11 @@ The CIA is overseen by a small team motivated to help advance the interoperabili
 
 Targeted use:  We recommend users use the python argparse module to control how they drive their analysis systems.  The CIA is designed with the python argparse in mind, and the Community Diagnostics Package exploits this (https://github.com/UV-CDAT/cdp).  However, the CIA readily be used with different utilites - the common syntax is ultimate goal.
 
-Capabilities currently collaborating with the CIA:
+Capabilities currently participating in the devleopment of the CIA:
 
   + PCMDI Metrics Package: https://github.com/PCMDI/pcmdi_metrics
   + E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
   + ARM diagnostics package: https://github.com/ARM-DOE/arm-gcm-diagnostics
   
-  Coming soon(?)...
-  
-  + Regional Climate Model Evaluation System (RCMES): https://rcmes.jpl.nasa.gov/
-  + The Toolkit for Extreme Climate Analysis (TECA): https://github.com/LBL-EESA/TECA
-  
-  Collaborating modeling groups:
-  
+
   
