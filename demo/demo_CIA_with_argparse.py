@@ -7,7 +7,7 @@ import ast
 p = argparse.ArgumentParser()
 
 #fjson = open(os.path.join(sys.prefix,"share","cia","DefArgsCIA.json"))
-fjson = open("./DefArgsCIA.json")
+fjson = open("../Defaults/DefArgsCIA.json")
 
 json_data = json.load(fjson)
 

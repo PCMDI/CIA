@@ -12,6 +12,6 @@ P = PMPParser()
 
 params = P.get_parameter()
 
-print params.mods
+print params.modnames
 print params.modpath
  
