@@ -8,7 +8,7 @@ The CIA is overseen by a small team motivated to help advance the interoperabili
 
 We recommend use of the standard python *argparse* module to control input arguments.  The CIA is designed with the argparse in mind, however, it can readily be adopted to be used with different utilites.   Shared syntax is the objective.  How it gets used is determined by the user.  
 
-For more information including examples and instructions, see https://github.com/PCMDI/CIA. 
+For more information including examples and instructions, see https://github.com/PCMDI/CIA/tree/master/demo. 
 
 Capabilities currently using and contributing to the CIA:
 
