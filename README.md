@@ -10,7 +10,7 @@ We recommend use of the standard python *argparse* module to control input argum
 
 For more information including examples and instructions, see https://github.com/PCMDI/CIA. 
 
-Capabilities currently participating in the devleopment of the CIA:
+Capabilities currently using and contributing to the CIA:
 
   + PCMDI Metrics Package: https://github.com/PCMDI/pcmdi_metrics
   + E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
