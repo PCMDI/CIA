@@ -1,0 +1,20 @@
+{
+	"--mp": {
+		"aliases": [
+			"--modpath"
+		],
+		"default": "hi looser",
+		"dest": "modpath",
+		"help": "Explicit  w/o f word path to model data",
+		"type": "str"
+	},
+	"--mp2": {
+		"aliases": [
+			"--modpath2"
+		],
+		"default": "hi super looser",
+		"dest": "modpath2",
+		"help": "Expliciiiit  w/o f word path to model data",
+		"type": "str"
+	}
+}
