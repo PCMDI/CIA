@@ -8,11 +8,9 @@ import ast
 p = argparse.ArgumentParser()
 
 fjson = open(os.path.join(sys.prefix,"share","cia","DefArgsCIA.json"))
-#fjson = open("../demo/DefArgsCIA.json")
 
 json_data = json.load(fjson)
 
-#print "keys in dictionary are ", json_data.keys()
 print ("keys in dictionary are ", json_data.keys())
 
 

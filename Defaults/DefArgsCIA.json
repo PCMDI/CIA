@@ -43,7 +43,7 @@
         "required":false,
         "type":"int"
     },
-    "--parameter":{
+    "--parameters":{
         "aliases":[
             "-p"
         ]
