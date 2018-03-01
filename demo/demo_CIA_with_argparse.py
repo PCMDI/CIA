@@ -1,3 +1,4 @@
+from __future__ import print_function
 import argparse
 import json
 import os
@@ -6,12 +7,14 @@ import ast
 
 p = argparse.ArgumentParser()
 
-#fjson = open(os.path.join(sys.prefix,"share","cia","DefArgsCIA.json"))
-fjson = open("./DefArgsCIA.json")
+fjson = open(os.path.join(sys.prefix,"share","cia","DefArgsCIA.json"))
+#fjson = open("../demo/DefArgsCIA.json")
 
 json_data = json.load(fjson)
 
-print "keys in dictionary are ", json_data.keys()
+#print "keys in dictionary are ", json_data.keys()
+print ("keys in dictionary are ", json_data.keys())
+
 
 for key in json_data:
     if key[0]!='-': continue
@@ -27,6 +30,7 @@ for key in json_data:
 
 args = p.parse_args(sys.argv[1:])
 
-print "after modifications provided by command line arguments:", args
+print("---------------------------------------------------")
+print ("after modifications provided by command line arguments:", args)
 
 
