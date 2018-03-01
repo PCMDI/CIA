@@ -8,14 +8,13 @@ P.use("diags")
 P.use("mp")
 P.use("mp2")
 
-P.add_argument("--crap",help = 'bla bla',default = 'bad')
+P.add_argument("--newarg",help = 'newarg help',default = 'newarg default')
 
-P.add_argument("--modpath","--mp",dest = "modpath", default = 'shitze')
-
+P.add_argument("--modpath","--mp",dest = "modpathnew", default = 'modpath overwritten')
 
 params = P.get_parameter()
 
 print params.modpath
 print params.modpath2
-print params.crap
+print params.newarg
  
