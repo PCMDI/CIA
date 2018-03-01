@@ -6,7 +6,7 @@ import json
 #Populate default arguments
 ArgDefaults = {}
 
-ArgDefaults["--parameter"] = {'aliases':["-p"]}
+ArgDefaults["--parameters"] = {'aliases':["-p"]}
 ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','default':'hi','help':'Explicit path to model data'}
 ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
