@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os, sys
 from cdp.cdp_parser import CDPParser
 
@@ -16,7 +17,6 @@ P.add_argument("--modpath","--mp",dest = "modpathnew", default = 'modpath overwr
 
 params = P.get_parameter()
 
-print params.modpath
-print params.modpath2
-print params.newarg
- 
+print(params.modpath)
+print(params.modpath2)
+print(params.newarg)
