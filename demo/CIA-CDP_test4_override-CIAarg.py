@@ -10,7 +10,7 @@ P.use("p")
 P.use("diags")
 P.use("mp")
 
-#The first two parameters ("p" and "diags") must always be loaded as is.  In this example we also load up "modepath"
+#The first two parameters ("p" and "diags") must always be loaded as is.  In this example we also overrride the attributes of  "modepath"
 
 P.add_argument("--modpath","--mp",dest = "modpathnew", default = 'modpath overwritten')
 
