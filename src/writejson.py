@@ -7,13 +7,13 @@ import json
 ArgDefaults = {}
 
 ArgDefaults["--parameters"] = {'aliases':["-p"]}
-ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','default':'hi','help':'Explicit path to model data'}
+ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','required':True,'help':'Explicit path to model data'}
 ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
-ArgDefaults["--results_dir"] = {'aliases':['--rd'],'type':'ast.literal_eval', 'default':'None','help':'The name of the folder where all runs will be stored.'}
+ArgDefaults["--results_dir"] = {'aliases':['--rd'],'type':'str', 'default':'None','help':'The name of the folder where all runs will be stored.'}
 ArgDefaults["--case_id"] = {'aliases':['--cid'],'dest':'modnames','default':'None','help':'The name of the subdirectory (below results_dir where results from a paritcular code execution is stored '}
 
-ArgDefaults['--reference_data_path'] = {'aliases':['--rdp'],'help':'The path/filename of reference (obs) data.'}
+ArgDefaults['--reference_data_path'] = {'aliases':['--rdp'],'type':'str','help':'The path/filename of reference (obs) data.'}
 
 ArgDefaults['--test_data_path'] = {'aliases':['--tp'],'help':'The path/filename to model output.'}
 

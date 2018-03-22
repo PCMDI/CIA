@@ -30,9 +30,9 @@
         "aliases":[
             "--mp"
         ],
-        "default":"hi",
         "dest":"modpath",
         "help":"Explicit path to model data",
+        "required":true,
         "type":"str"
     },
     "--num_workers":{
@@ -52,7 +52,8 @@
         "aliases":[
             "--rdp"
         ],
-        "help":"The path/filename of reference (obs) data."
+        "help":"The path/filename of reference (obs) data.",
+        "type":"str"
     },
     "--results_dir":{
         "aliases":[
@@ -60,7 +61,7 @@
         ],
         "default":"None",
         "help":"The name of the folder where all runs will be stored.",
-        "type":"ast.literal_eval"
+        "type":"str"
     },
     "--scheduler_addr\"":{
         "aliases":[
