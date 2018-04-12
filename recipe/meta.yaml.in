@@ -3,7 +3,7 @@ package:
     version: @VERSION@
 
 source:
-    git_url: git://github.com/gleckler1/cia
+    git_url: git://github.com/pcmdi/cia
     git_rev: @UVCDAT_BRANCH@
 
 build:
@@ -17,6 +17,6 @@ requirements:
 
 
 about:
-    home:  http://gitub.com/gleckler1
+    home:  http://gitub.com/pcmdi/cia
     summary: Common Input Arguments default file
 
