@@ -10,6 +10,11 @@ ArgDefaults["--parameters"] = {'aliases':["-p"]}
 ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','required':True,'help':'Explicit path to model data'}
 ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
+ArgDefaults["--mip"] = {'aliases':['--MIP'],'type':'ast.literal_eval', 'dest':'MIP','default':'None','help':'A WCRP MIP project such as CMIP3 and CMIP5'}
+
+ArgDefaults["--exp"] = {'aliases':['--EXP'],'type':'ast.literal_eval', 'dest':'EXP','default':'None','help':'An experiment such as AMIP, historical or pi-contorl'}
+
+
 ArgDefaults["--results_dir"] = {'aliases':['--rd'],'type':'str', 'default':'None','help':'The name of the folder where all runs will be stored.'}
 ArgDefaults["--case_id"] = {'aliases':['--cid'],'dest':'modnames','default':'None','help':'The name of the subdirectory (below results_dir where results from a paritcular code execution is stored '}
 

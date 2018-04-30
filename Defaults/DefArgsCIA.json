@@ -17,6 +17,24 @@
         "required":false,
         "type":"str"
     },
+    "--exp":{
+        "aliases":[
+            "--EXP"
+        ],
+        "default":"None",
+        "dest":"EXP",
+        "help":"An experiment such as AMIP, historical or pi-contorl",
+        "type":"ast.literal_eval"
+    },
+    "--mip":{
+        "aliases":[
+            "--MIP"
+        ],
+        "default":"None",
+        "dest":"MIP",
+        "help":"A WCRP MIP project such as CMIP3 and CMIP5",
+        "type":"ast.literal_eval"
+    },
     "--modnames":{
         "aliases":[
             "--mns"
