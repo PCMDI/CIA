@@ -7,7 +7,7 @@ import json
 ArgDefaults = {}
 
 ArgDefaults["--parameters"] = {'aliases':["-p"]}
-ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','required':True,'help':'Explicit path to model data'}
+ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','help':'Explicit path to model data'}
 ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
 ArgDefaults["--mip"] = {'aliases':['--MIP'],'type':'ast.literal_eval', 'dest':'MIP','default':'None','help':'A WCRP MIP project such as CMIP3 and CMIP5'}
@@ -42,24 +42,3 @@ fH.close()
 
 ## END
 #####################################################################
-"""
-        "--diags": {
-                "aliases": ["-d"],
-                "type": "str",
-                "nargs": "+",
-                "dest": "other_parameters",
-                "default": [],
-                "help": "Path to other user-defined parameter file.",
-                "required": false
-        },
-        "--num_workers": {
-                "aliases": ["-n"],
-                "type": "int",
-                "help": "Number of workers, used when running with multiprocessing or in distributed mode.",
-                "required": false
-        },
-        "--scheduler_addr": {
-                "type": "str",
-                "help": "Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode."
-        }
-"""

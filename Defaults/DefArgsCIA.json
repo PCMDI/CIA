@@ -50,7 +50,6 @@
         ],
         "dest":"modpath",
         "help":"Explicit path to model data",
-        "required":true,
         "type":"str"
     },
     "--num_workers":{

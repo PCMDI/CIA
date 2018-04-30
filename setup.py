@@ -2,6 +2,10 @@ from __future__ import print_function
 import os
 import sys
 import shutil
+from subprocess import Popen
+
+p = Popen(["python","writejson.py"], cwd="src")
+p.communicate()
 
 dest_dir = os.path.join(sys.prefix,"share","cia")
 
