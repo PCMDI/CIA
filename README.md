@@ -13,7 +13,7 @@ For more information including examples and instructions, see https://github.com
 Capabilities currently using and contributing to the CIA:
 
   + PCMDI Metrics Package: https://github.com/PCMDI/pcmdi_metrics
-  + E3SM diagnostics package: https://acme-climate.github.io/acme_diags/docs/html/index.html
+  + E3SM diagnostics package: https://github.com/E3SM-Project/acme_diags
   + ARM diagnostics package: https://github.com/ARM-DOE/arm-gcm-diagnostics
   
 
