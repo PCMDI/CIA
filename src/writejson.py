@@ -14,6 +14,19 @@ ArgDefaults["--mip"] = {'aliases':['--MIP'],'type':'ast.literal_eval', 'dest':'M
 
 ArgDefaults["--exp"] = {'aliases':['--EXP'],'type':'ast.literal_eval', 'dest':'EXP','default':'None','help':'An experiment such as AMIP, historical or pi-contorl'}
 
+ArgDefaults["--start_day"] = {'aliases':['--sd'],'type':'ast.literal_eval', 'dest':'startday','default':'None','help':'The start day of, for example, data to extract from a time series'}
+
+ArgDefaults["--start_month"] = {'aliases':['--sm'],'type':'ast.literal_eval', 'dest':'startmonth','default':'None','help':'The start month of, for example, data to extract from a time series'}
+
+ArgDefaults["--start_year"] = {'aliases':['--sy'],'type':'ast.literal_eval', 'dest':'startyear','default':'None','help':'The start year of, for example, data to extract from a time series'}
+
+ArgDefaults["--end_day"] = {'aliases':['--ed'],'type':'ast.literal_eval', 'dest':'endday','default':'None','help':'The end day of, for example, data to extract from a time series'}
+
+ArgDefaults["--end_month"] = {'aliases':['--em'],'type':'ast.literal_eval', 'dest':'endmonth','default':'None','help':'The end month of, for example, data to extract from a time series'}
+
+ArgDefaults["--end_year"] = {'aliases':['--ey'],'type':'ast.literal_eval', 'dest':'endyear','default':'None','help':'The end year of, for example, data to extract from a time series'}
+
+ArgDefaults["--seasons"] = {'aliases':['--seas'],'type':'ast.literal_eval', 'dest':'sea','default':'None','help':'A list of seasons, e.g., ["DJF","JJA"]'}
 
 ArgDefaults["--results_dir"] = {'aliases':['--rd'],'type':'str', 'default':'None','help':'The name of the folder where all runs will be stored.'}
 ArgDefaults["--case_id"] = {'aliases':['--cid'],'dest':'modnames','default':'None','help':'The name of the subdirectory (below results_dir where results from a paritcular code execution is stored '}

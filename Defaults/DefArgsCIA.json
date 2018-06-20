@@ -17,6 +17,33 @@
         "required":false,
         "type":"str"
     },
+    "--end_day":{
+        "aliases":[
+            "--ed"
+        ],
+        "default":"None",
+        "dest":"endday",
+        "help":"The end day of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
+    },
+    "--end_month":{
+        "aliases":[
+            "--em"
+        ],
+        "default":"None",
+        "dest":"endmonth",
+        "help":"The end month of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
+    },
+    "--end_year":{
+        "aliases":[
+            "--ey"
+        ],
+        "default":"None",
+        "dest":"endyear",
+        "help":"The end year of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
+    },
     "--exp":{
         "aliases":[
             "--EXP"
@@ -87,6 +114,42 @@
         "help":"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.",
         "required":false,
         "type":"str"
+    },
+    "--seasons":{
+        "aliases":[
+            "--seas"
+        ],
+        "default":"None",
+        "dest":"sea",
+        "help":"A list of seasons, e.g., [\"DJF\",\"JJA\"]",
+        "type":"ast.literal_eval"
+    },
+    "--start_day":{
+        "aliases":[
+            "--sd"
+        ],
+        "default":"None",
+        "dest":"startday",
+        "help":"The start day of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
+    },
+    "--start_month":{
+        "aliases":[
+            "--sm"
+        ],
+        "default":"None",
+        "dest":"startmonth",
+        "help":"The start month of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
+    },
+    "--start_year":{
+        "aliases":[
+            "--sy"
+        ],
+        "default":"None",
+        "dest":"startyear",
+        "help":"The start year of, for example, data to extract from a time series",
+        "type":"ast.literal_eval"
     },
     "--test_data_path":{
         "aliases":[
