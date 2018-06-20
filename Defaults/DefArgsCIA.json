@@ -93,5 +93,11 @@
             "--tp"
         ],
         "help":"The path/filename to model output."
+    },
+    "--variables":{
+        "aliases":[
+            "--vars"
+        ],
+        "help":"A list of variables to be processed"
     }
 }

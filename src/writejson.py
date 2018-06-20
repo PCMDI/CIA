@@ -28,6 +28,8 @@ ArgDefaults['--num_workers'] = {'aliases':["-n"],'help':"Number of workers, used
 
 ArgDefaults['--scheduler_addr"'] = {'aliases':["--N/A"],'help':"Address of scheduler in the form of IP_ADDRESS:PORT. Used when running in distributed mode.","type":"str","required":False}
 
+ArgDefaults['--variables'] = {'aliases':['--vars'],'help':'A list of variables to be processed'}
+
 
 # Write arguments json
 
