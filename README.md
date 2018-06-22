@@ -1,6 +1,6 @@
 # CIA
 
-No, not that CIA.  This repository maintains the Common Input Arguments (CIA) that are used by independently developed analysis capabilities specialized in the evaluation General Circulation Models (GCMs) or Earth System Models (ESMs).  Common use of these arguments facilitates integration of these analysis tools.   
+No, not that CIA.  This repository maintains the Common Input Arguments (CIA) that are used by independently developed analysis capabilities designed for evaluation General Circulation Models (GCMs) or Earth System Models (ESMs).  Common use of these arguments facilitates integration of these analysis tools.   
 
 Many modeling centers are interested in using multiple internally or externally developed analysis packages.  They and other potential users can experience substantial benefit if independently developed packages can be operated at least somewhat similiarly.  The common input options provided by the CIA offer a default or starting point which can easily be modified or appended as they are being used.  In this way it serves to incrimentally buildi a framework that can facilitate inter-operability of different analysis packages.    
 
