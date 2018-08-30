@@ -49,7 +49,7 @@
             "--EXP"
         ],
         "default":"None",
-        "dest":"EXP",
+        "dest":"exp",
         "help":"An experiment such as AMIP, historical or pi-contorl",
         "type":"ast.literal_eval"
     },
@@ -58,7 +58,7 @@
             "--MIP"
         ],
         "default":"None",
-        "dest":"MIP",
+        "dest":"mip",
         "help":"A WCRP MIP project such as CMIP3 and CMIP5",
         "type":"ast.literal_eval"
     },

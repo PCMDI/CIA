@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 import json
 
@@ -10,9 +11,9 @@ ArgDefaults["--parameters"] = {'aliases':["-p"]}
 ArgDefaults["--modpath"] = {'aliases':['--mp'],'type':'str', 'dest':'modpath','help':'Explicit path to model data'}
 ArgDefaults["--modnames"] = {'aliases':['--mns'],'type':'ast.literal_eval', 'dest':'modnames','default':'None','help':'A list of names that can be used to loop through modpath'}
 
-ArgDefaults["--mip"] = {'aliases':['--MIP'],'type':'ast.literal_eval', 'dest':'MIP','default':'None','help':'A WCRP MIP project such as CMIP3 and CMIP5'}
+ArgDefaults["--mip"] = {'aliases':['--MIP'],'type':'ast.literal_eval', 'dest':'mip','default':'None','help':'A WCRP MIP project such as CMIP3 and CMIP5'}
 
-ArgDefaults["--exp"] = {'aliases':['--EXP'],'type':'ast.literal_eval', 'dest':'EXP','default':'None','help':'An experiment such as AMIP, historical or pi-contorl'}
+ArgDefaults["--exp"] = {'aliases':['--EXP'],'type':'ast.literal_eval', 'dest':'exp','default':'None','help':'An experiment such as AMIP, historical or pi-contorl'}
 
 ArgDefaults["--start_day"] = {'aliases':['--sd'],'type':'ast.literal_eval', 'dest':'startday','default':'None','help':'The start day of, for example, data to extract from a time series'}
 
@@ -47,7 +48,7 @@ ArgDefaults['--variables'] = {'aliases':['--vars'],'help':'A list of variables t
 # Write arguments json
 
 if os.path.exists('../Defaults/DefArgsCIA.json'):
-    print 'File existing, purging: DefArgsCIA.json'
+    print('File existing, purging: DefArgsCIA.json')
     os.remove('../Defaults/DefArgsCIA.json')
 fH = open('../Defaults/DefArgsCIA.json','w')
 
